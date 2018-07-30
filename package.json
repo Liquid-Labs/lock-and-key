@@ -1,0 +1,29 @@
+{
+  "name": "lock-and-key",
+  "version": "0.0.1",
+  "description": "A binary semaphore for asynchronous coordination.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/liquidlabs/lock-and-key.git"
+  },
+  "keywords": [
+    "semaphore",
+    "binary-semaphore",
+    "gate",
+    "lock"
+  ],
+  "author": "Zane Rockenbaugh <zane@liquid-labs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/liquidlabs/lock-and-key/issues"
+  },
+  "homepage": "https://gitlab.com/liquidlabs/lock-and-key#README",
+  "devDependencies": {
+    "jest": "^23.4.1"
+  },
+  "dependencies": {}
+}
