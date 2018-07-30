@@ -29,6 +29,6 @@ test('allows multiple unlocking while passing results through and retains initia
   key.openGate(3)
   await gate
   expect(foo).toBe(2)
-  key.opengate(4)
+  key.openGate(4)
   expect(foo).toBe(2)
 })
