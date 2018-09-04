@@ -1,4 +1,4 @@
-const {default:makeGate} = require('./makeGate')
+const makeGate = require('./makeGate').makeGate
 
 test('gate should wait on open', async function() {
   let foo = 1
