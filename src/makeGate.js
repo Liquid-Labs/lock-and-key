@@ -3,7 +3,7 @@ const gateGenerator = function* (resolve, reject) {
   resolve(result)
 }
 
-const makeGate = function() {
+const makeGate = function(openValue) {
   let keyMechanism
   const gate = new Promise((res, rej) => {
     keyMechanism = gateGenerator(res, rej)
@@ -13,7 +13,7 @@ const makeGate = function() {
 
   const key = {
     openGate: async function(result) {
-      keyMechanism.next(result)
+      keyMechanism.next(result === undefined ? openValue : result)
     }
   }
 
