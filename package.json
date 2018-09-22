@@ -3,7 +3,10 @@
   "version": "0.0.2",
   "description": "A simple open/closed semaphore for asynchronous coordination.",
   "main": "dist/index.js",
-  "files": ["dist/","README.md"],
+  "files": [
+    "dist/",
+    "README.md"
+  ],
   "scripts": {
     "build": "babel --source-maps inline src -d dist",
     "start": "babel --watch --source-maps inline src -d dist",
