@@ -1,6 +1,6 @@
 {
   "name": "@liquid-labs/lock-and-key",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple open/closed semaphore for asynchronous coordination.",
   "main": "dist/index.js",
   "files": [
